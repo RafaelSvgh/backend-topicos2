@@ -23,7 +23,6 @@ Thumbs.db
 # Logs y bases de datos temporales
 *.log
 *.sqlite3
-*.db
 
 # Twilio media (por si guardas algo)
 media/
