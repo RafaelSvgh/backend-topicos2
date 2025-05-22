@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="negocio.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="0"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1587"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="categoria" custom_title="0" dock_id="1" table="4,9:maincategoria"/><table title="lista_precio" custom_title="0" dock_id="2" table="4,12:mainlista_precio"/><dock_state state="000000ff00000000fd00000001000000020000020e00000215fc0100000001fc000000000000020e0000011e00fffffffa000000010100000002fb000000160064006f0063006b00420072006f00770073006500310100000000ffffffff0000011e00fffffffb000000160064006f0063006b00420072006f00770073006500320100000000ffffffff0000011e00ffffff0000020e0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="categoria" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="35"/><column index="2" value="52"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="lista_precio" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="35"/><column index="2" value="135"/><column index="3" value="47"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1*">INSERT INTO categoria (nombre) VALUES 
+('Ropa para Hombre'),
+('Ropa para Mujer'),
+('Ropa para Niños'),
+('Accesorios');
+
+INSERT INTO subcategoria (nombre, categoria_id) VALUES
+-- Hombre
+('Camisetas', 1),
+('Pantalones', 1),
+('Chaquetas', 1),
+('Camisas', 1),
+-- Mujer
+('Vestidos', 2),
+('Blusas', 2),
+('Faldas', 2),
+('Jeans', 2),
+-- Niños
+('Conjuntos', 3),
+('Ropa deportiva', 3),
+('Pijamas', 3),
+-- Accesorios
+('Bufandas', 4),
+('Gorros', 4),
+('Cinturones', 4);
+
+INSERT INTO producto (codigo, nombre, marca, talla, color, subcategoria_id) VALUES
+-- Camisetas hombre
+('CTH001', 'Camiseta básica algodón', 'BasicWear', 'M', 'Blanco', 1),
+('CTH002', 'Camiseta estampada', 'UrbanStyle', 'L', 'Negro', 1),
+('CTH003', 'Camiseta manga larga', 'Comfort', 'XL', 'Azul marino', 1),
+-- Pantalones hombre
+('PTH001', 'Jeans slim fit', 'DenimCo', '32', 'Azul', 2),
+('PTH002', 'Pantalón chino', 'Elegant', '34', 'Beige', 2),
+-- Chaquetas hombre
+('CHH001', 'Chaqueta denim', 'DenimCo', 'L', 'Azul claro', 3),
+('CHH002', 'Chaqueta bomber', 'UrbanStyle', 'M', 'Negro', 3),
+-- Vestidos mujer
+('VSM001', 'Vestido floral', 'FemStyle', 'S', 'Multicolor', 5),
+('VSM002', 'Vestido negro elegante', 'Elegance', 'M', 'Negro', 5),
+-- Blusas mujer
+('BLM001', 'Blusa seda', 'Luxury', 'S', 'Rosa', 6),
+('BLM002', 'Blusa manga campana', 'Boho', 'M', 'Blanco', 6),
+-- Accesorios
+('ACC001', 'Bufanda lana', 'Winter', 'U', 'Gris', 12),
+('ACC002', 'Gorro tejido', 'Winter', 'U', 'Rojo', 13),
+('ACC003', 'Cinturón cuero', 'Leather', 'M', 'Marrón', 14);
+
+INSERT INTO lista_precio (descripcion, precio) VALUES
+('Precio regular', 29.99),
+('Oferta especial', 19.99),
+('Precio premium', 49.99),
+('Liquidación', 14.99),
+('Precio temporada', 39.99);
+
+INSERT INTO producto_precio (producto_codigo, lista_precio_id) VALUES
+('CTH001', 1),
+('CTH002', 2),
+('CTH003', 1),
+('PTH001', 3),
+('PTH002', 1),
+('CHH001', 4),
+('CHH002', 5),
+('VSM001', 1),
+('VSM002', 3),
+('BLM001', 5),
+('BLM002', 1),
+('ACC001', 2),
+('ACC002', 1),
+('ACC003', 3);</sql><current_tab id="0"/></tab_sql></sqlb_project>

@@ -1,0 +1,38 @@
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de entorno virtual
+.env
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs y bases de datos temporales
+*.log
+*.sqlite3
+*.db
+
+# Twilio media (por si guardas algo)
+media/
+
+# Archivos de prueba
+*.bak
+*.tmp
+
+# Archivos compilados (si usas Cython o similares)
+build/
+dist/
+*.egg-info/
