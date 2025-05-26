@@ -1,0 +1,214 @@
+Los productos de la categoría "Accesorios" están disponibles en las siguientes tallas: UNI.
+
+Los productos de la categoría "Calzado" están disponibles en las siguientes tallas: 37, 38, 39, 40, 41, 42, 43, 44.
+
+Los productos de la categoría "Ropa" están disponibles en las siguientes tallas: 30, 32, 34, 36, L, M, S, XL, XS.
+
+Los productos de la subcategoría "Bolsos" están disponibles en las siguientes tallas: UNI.
+
+Los productos de la subcategoría "Camisetas" están disponibles en las siguientes tallas: L, M, S, XL.
+
+Los productos de la subcategoría "Gafas de sol" están disponibles en las siguientes tallas: UNI.
+
+Los productos de la subcategoría "Pantalones" están disponibles en las siguientes tallas: 30, 32, 34, 36, M.
+
+Los productos de la subcategoría "Sandalias" están disponibles en las siguientes tallas: 37, 38, 40, 41.
+
+Los productos de la subcategoría "Vestidos" están disponibles en las siguientes tallas: L, M, S, XS.
+
+Los productos de la subcategoría "Zapatos deportivos" están disponibles en las siguientes tallas: 39, 40, 42, 43, 44.
+
+La promoción "Verano 2023" ofrece un descuento del 20%.
+
+La promoción "Black Friday" ofrece un descuento del 30%.
+
+La promoción "Cyber Monday" ofrece un descuento del 25%.
+
+La promoción "Black Friday" aplica a los siguientes productos: Jeans slim fit, Zapatillas running, Bolso bandolera, Zapatillas running premium, Sandalias con cuña, Bandolera cuero.
+
+La promoción "Cyber Monday" aplica a los siguientes productos: Gafas aviador, Gafas redondas, Gafas polarizadas.
+
+La promoción "Verano 2023" aplica a los siguientes productos: Camiseta básica blanca, Vestido floral, Sandalias playa, Camiseta básica negra, Shorts deportivos, Vestido midi floral.
+
+La categoría "Ropa" contiene 15 productos.
+Algunos de estos son: Camiseta básica blanca, Camiseta manga larga, Camiseta estampada, Camiseta básica negra, Camiseta cuello V, Jeans slim fit, Pantalón cargo, Jeans skinny, Pantalón chino, Shorts deportivos, Vestido floral, Vestido cóctel, Vestido verano, Vestido largo, Vestido midi floral.
+
+La categoría "Calzado" contiene 10 productos.
+Algunos de estos son: Zapatillas running, Zapatillas trail, Zapatillas urbanas, Zapatillas running premium, Zapatillas gimnasio, Sandalias playa, Sandalias trekking, Sandalias vestir, Chanclas playa, Sandalias con cuña.
+
+La categoría "Accesorios" contiene 10 productos.
+Algunos de estos son: Bolso bandolera, Mochila urbana, Bolso tote, Cartera pequeña, Bandolera cuero, Gafas aviador, Gafas cuadradas, Gafas redondas, Gafas deportivas, Gafas polarizadas.
+
+La subcategoría "Camisetas", que pertenece a la categoría "Ropa", contiene 5 productos.
+Algunos de estos productos son: Camiseta básica blanca, Camiseta manga larga, Camiseta estampada, Camiseta básica negra, Camiseta cuello V.
+
+La subcategoría "Pantalones", que pertenece a la categoría "Ropa", contiene 5 productos.
+Algunos de estos productos son: Jeans slim fit, Pantalón cargo, Jeans skinny, Pantalón chino, Shorts deportivos.
+
+La subcategoría "Vestidos", que pertenece a la categoría "Ropa", contiene 5 productos.
+Algunos de estos productos son: Vestido floral, Vestido cóctel, Vestido verano, Vestido largo, Vestido midi floral.
+
+La subcategoría "Zapatos deportivos", que pertenece a la categoría "Calzado", contiene 5 productos.
+Algunos de estos productos son: Zapatillas running, Zapatillas trail, Zapatillas urbanas, Zapatillas running premium, Zapatillas gimnasio.
+
+La subcategoría "Sandalias", que pertenece a la categoría "Calzado", contiene 5 productos.
+Algunos de estos productos son: Sandalias playa, Sandalias trekking, Sandalias vestir, Chanclas playa, Sandalias con cuña.
+
+La subcategoría "Bolsos", que pertenece a la categoría "Accesorios", contiene 5 productos.
+Algunos de estos productos son: Bolso bandolera, Mochila urbana, Bolso tote, Cartera pequeña, Bandolera cuero.
+
+La subcategoría "Gafas de sol", que pertenece a la categoría "Accesorios", contiene 5 productos.
+Algunos de estos productos son: Gafas aviador, Gafas cuadradas, Gafas redondas, Gafas deportivas, Gafas polarizadas.
+
+El producto "Camiseta básica blanca" (código: PROD001), de la marca BasicWear, talla M, color Blanco,
+    pertenece a la subcategoría "Camisetas", dentro de la categoría "Ropa".
+    Tiene un precio de 19.99 (Precio regular).
+
+El producto "Camiseta básica blanca" (código: PROD001), de la marca BasicWear, talla M, color Blanco,
+    pertenece a la subcategoría "Camisetas", dentro de la categoría "Ropa".
+    Tiene un precio de 15.99 (Oferta especial).
+
+El producto "Jeans slim fit" (código: PROD002), de la marca DenimCo, talla 32, color Azul,
+    pertenece a la subcategoría "Pantalones", dentro de la categoría "Ropa".
+    Tiene un precio de 49.99 (Precio regular).
+
+El producto "Vestido floral" (código: PROD003), de la marca FashionStyle, talla S, color Multicolor,
+    pertenece a la subcategoría "Vestidos", dentro de la categoría "Ropa".
+    Tiene un precio de 39.99 (Precio regular).
+
+El producto "Vestido floral" (código: PROD003), de la marca FashionStyle, talla S, color Multicolor,
+    pertenece a la subcategoría "Vestidos", dentro de la categoría "Ropa".
+    Tiene un precio de 39.99 (Oferta especial).
+
+El producto "Zapatillas running" (código: PROD004), de la marca SportRun, talla 42, color Negro,
+    pertenece a la subcategoría "Zapatos deportivos", dentro de la categoría "Calzado".
+    Tiene un precio de 89.99 (Precio regular).
+
+El producto "Sandalias playa" (código: PROD005), de la marca SummerFeel, talla 38, color Marrón,
+    pertenece a la subcategoría "Sandalias", dentro de la categoría "Calzado".
+    Tiene un precio de 29.99 (Precio regular).
+
+El producto "Bolso bandolera" (código: PROD006), de la marca BagMaster, talla UNI, color Negro,
+    pertenece a la subcategoría "Bolsos", dentro de la categoría "Accesorios".
+    Tiene un precio de 59.99 (Precio regular).
+
+El producto "Bolso bandolera" (código: PROD006), de la marca BagMaster, talla UNI, color Negro,
+    pertenece a la subcategoría "Bolsos", dentro de la categoría "Accesorios".
+    Tiene un precio de 69.99 (Oferta especial).
+
+El producto "Gafas aviador" (código: PROD007), de la marca SunShield, talla UNI, color Dorado,
+    pertenece a la subcategoría "Gafas de sol", dentro de la categoría "Accesorios".
+    Tiene un precio de 79.99 (Precio regular).
+
+El producto "Camiseta manga larga" (código: PROD008), de la marca WinterComfort, talla L, color Gris,
+    pertenece a la subcategoría "Camisetas", dentro de la categoría "Ropa".
+    Tiene un precio de 19.99 (Precio regular).
+
+El producto "Camiseta estampada" (código: PROD009), de la marca UrbanStyle, talla M, color Negro,
+    pertenece a la subcategoría "Camisetas", dentro de la categoría "Ropa".
+    Tiene un precio de 19.99 (Precio regular).
+
+El producto "Camiseta básica negra" (código: PROD010), de la marca BasicWear, talla S, color Negro,
+    pertenece a la subcategoría "Camisetas", dentro de la categoría "Ropa".
+    Tiene un precio de 19.99 (Precio regular).
+
+El producto "Camiseta cuello V" (código: PROD011), de la marca SimpleLook, talla XL, color Azul marino,
+    pertenece a la subcategoría "Camisetas", dentro de la categoría "Ropa".
+    Tiene un precio de 19.99 (Precio regular).
+
+El producto "Pantalón cargo" (código: PROD012), de la marca OutdoorGear, talla 34, color Verde,
+    pertenece a la subcategoría "Pantalones", dentro de la categoría "Ropa".
+    Tiene un precio de 49.99 (Precio regular).
+
+El producto "Jeans skinny" (código: PROD013), de la marca DenimCo, talla 30, color Negro,
+    pertenece a la subcategoría "Pantalones", dentro de la categoría "Ropa".
+    Tiene un precio de 49.99 (Precio regular).
+
+El producto "Pantalón chino" (código: PROD014), de la marca ElegantWear, talla 36, color Beige,
+    pertenece a la subcategoría "Pantalones", dentro de la categoría "Ropa".
+    Tiene un precio de 49.99 (Precio regular).
+
+El producto "Shorts deportivos" (código: PROD015), de la marca ActiveLife, talla M, color Azul,
+    pertenece a la subcategoría "Pantalones", dentro de la categoría "Ropa".
+    Tiene un precio de 49.99 (Precio regular).
+
+El producto "Vestido cóctel" (código: PROD016), de la marca GlamourNights, talla M, color Rojo,
+    pertenece a la subcategoría "Vestidos", dentro de la categoría "Ropa".
+    Tiene un precio de 39.99 (Precio regular).
+
+El producto "Vestido verano" (código: PROD017), de la marca SummerBreeze, talla S, color Blanco,
+    pertenece a la subcategoría "Vestidos", dentro de la categoría "Ropa".
+    Tiene un precio de 39.99 (Precio regular).
+
+El producto "Vestido largo" (código: PROD018), de la marca Elegance, talla L, color Negro,
+    pertenece a la subcategoría "Vestidos", dentro de la categoría "Ropa".
+    Tiene un precio de 39.99 (Precio regular).
+
+El producto "Vestido midi floral" (código: PROD019), de la marca FlowerPower, talla XS, color Rosa,
+    pertenece a la subcategoría "Vestidos", dentro de la categoría "Ropa".
+    Tiene un precio de 39.99 (Precio regular).
+
+El producto "Zapatillas trail" (código: PROD020), de la marca MountainGo, talla 43, color Verde,
+    pertenece a la subcategoría "Zapatos deportivos", dentro de la categoría "Calzado".
+    Tiene un precio de 89.99 (Precio regular).
+
+El producto "Zapatillas urbanas" (código: PROD021), de la marca CityWalk, talla 40, color Blanco,
+    pertenece a la subcategoría "Zapatos deportivos", dentro de la categoría "Calzado".
+    Tiene un precio de 89.99 (Precio regular).
+
+El producto "Zapatillas running premium" (código: PROD022), de la marca ProRun, talla 44, color Azul,
+    pertenece a la subcategoría "Zapatos deportivos", dentro de la categoría "Calzado".
+    Tiene un precio de 89.99 (Precio regular).
+
+El producto "Zapatillas gimnasio" (código: PROD023), de la marca GymMaster, talla 39, color Negro,
+    pertenece a la subcategoría "Zapatos deportivos", dentro de la categoría "Calzado".
+    Tiene un precio de 89.99 (Precio regular).
+
+El producto "Sandalias trekking" (código: PROD024), de la marca HikePro, talla 41, color Marrón,
+    pertenece a la subcategoría "Sandalias", dentro de la categoría "Calzado".
+    Tiene un precio de 29.99 (Precio regular).
+
+El producto "Sandalias vestir" (código: PROD025), de la marca ElegantStep, talla 37, color Dorado,
+    pertenece a la subcategoría "Sandalias", dentro de la categoría "Calzado".
+    Tiene un precio de 29.99 (Precio regular).
+
+El producto "Chanclas playa" (código: PROD026), de la marca BeachLife, talla 40, color Azul,
+    pertenece a la subcategoría "Sandalias", dentro de la categoría "Calzado".
+    Tiene un precio de 29.99 (Precio regular).
+
+El producto "Sandalias con cuña" (código: PROD027), de la marca StyleUp, talla 38, color Negro,
+    pertenece a la subcategoría "Sandalias", dentro de la categoría "Calzado".
+    Tiene un precio de 29.99 (Precio regular).
+
+El producto "Mochila urbana" (código: PROD028), de la marca UrbanPack, talla UNI, color Negro,
+    pertenece a la subcategoría "Bolsos", dentro de la categoría "Accesorios".
+    Tiene un precio de 59.99 (Precio regular).
+
+El producto "Bolso tote" (código: PROD029), de la marca EverydayBag, talla UNI, color Crema,
+    pertenece a la subcategoría "Bolsos", dentro de la categoría "Accesorios".
+    Tiene un precio de 59.99 (Precio regular).
+
+El producto "Cartera pequeña" (código: PROD030), de la marca MiniStyle, talla UNI, color Rojo,
+    pertenece a la subcategoría "Bolsos", dentro de la categoría "Accesorios".
+    Tiene un precio de 59.99 (Precio regular).
+
+El producto "Bandolera cuero" (código: PROD031), de la marca LeatherLux, talla UNI, color Marrón,
+    pertenece a la subcategoría "Bolsos", dentro de la categoría "Accesorios".
+    Tiene un precio de 59.99 (Precio regular).
+
+El producto "Gafas cuadradas" (código: PROD032), de la marca TrendyEyes, talla UNI, color Tortuga,
+    pertenece a la subcategoría "Gafas de sol", dentro de la categoría "Accesorios".
+    Tiene un precio de 79.99 (Precio regular).
+
+El producto "Gafas redondas" (código: PROD033), de la marca VintageLook, talla UNI, color Oro,
+    pertenece a la subcategoría "Gafas de sol", dentro de la categoría "Accesorios".
+    Tiene un precio de 79.99 (Precio regular).
+
+El producto "Gafas deportivas" (código: PROD034), de la marca SportShade, talla UNI, color Negro,
+    pertenece a la subcategoría "Gafas de sol", dentro de la categoría "Accesorios".
+    Tiene un precio de 79.99 (Precio regular).
+
+El producto "Gafas polarizadas" (código: PROD035), de la marca SunProtect, talla UNI, color Plateado,
+    pertenece a la subcategoría "Gafas de sol", dentro de la categoría "Accesorios".
+    Tiene un precio de 79.99 (Precio regular).
+
