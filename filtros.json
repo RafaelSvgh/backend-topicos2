@@ -1,0 +1,269 @@
+{
+    "conductor": [
+        "chofer",
+        "manejador",
+        "persona al volante"
+    ],
+    "pasajero": [
+        "usuario",
+        "viajero"
+    ],
+    "peatón": [
+        "persona caminando",
+        "gente",
+        "persona"
+    ],
+    "policia de tránsito": [
+        "policía",
+        "policía de tráfico",
+        "policía vial",
+        "oficial de tráfico",
+        "paco",
+        "agente",
+        "oficial",
+        "agente de tránsito"
+    ],
+    "accidente de tránsito": [
+        "accidente",
+        "choque",
+        "colisión",
+        "siniestro",
+        "percance",
+        "incidente",
+        "golpe"
+    ],
+    "bicicleta": [
+        "bici"
+    ],
+    "motocicleta": [
+        "moto",
+        "torito"
+    ],
+    "transporte público": [
+        "micro",
+        "bus",
+        "microbús",
+        "minibús",
+        "colectivo",
+        "línea",
+        "trufi",
+        "línea de micro"
+    ],
+    "transporte privado": [
+        "vehículo particular",
+        "auto personal"
+    ],
+    "vehículo": [
+        "automóvil",
+        "auto",
+        "carro",
+        "camioneta",
+        "vagoneta",
+        "taxi"
+    ],
+    "vehículo oficial": [
+        "Auto del Estado",
+        "movilidad del gobierno"
+    ],
+    "vehículo policial": [
+        "patrulla"
+    ],
+    "vehículo de dos ruedas": [
+        "motocicleta",
+        "bicicleta"
+    ],
+    "vehículo de tres ruedas": [
+        "torito"
+    ],
+    "luces": [
+        "Faroles",
+        "faros",
+        "focos",
+        "luces delanteras",
+        "luces traseras"
+    ],
+    "bocina": [
+        "claxon",
+        "pito"
+    ],
+    "llantas": [
+        "Gomas",
+        "neumáticos",
+        "ruedas"
+    ],
+    "inspección vehicular": [
+        "ITV",
+        "inspección técnica vehicular",
+        "inspección",
+        "revisión técnica"
+    ],
+    "licencia de conducir": [
+        "licencia",
+        "brevet",
+        "permiso",
+        "permiso de conducir",
+        "carnet de conducir",
+        "permiso de manejo",
+        "permiso de conducción",
+        "autorización para conducir"
+    ],
+    "multa": [
+        "sanción",
+        "infracción",
+        "boleta",
+        "ticket",
+        "parte"
+    ],
+    "placa": [
+        "matrícula",
+        "número de registro"
+    ],
+    "seguro obligatorio": [
+        "SOAT",
+        "póliza de seguro",
+        "seguro vehicular"
+    ],
+    "acera": [
+        "vereda",
+        "banqueta"
+    ],
+    "avenida": [
+        "av",
+        "av."
+    ],
+    "calle": [
+        "vía",
+        "ruta"
+    ],
+    "calzada": [
+        "vía de tránsito",
+        "pista"
+    ],
+    "carril": [
+        "pista",
+        "vía",
+        "canal vial"
+    ],
+    "control policial": [
+        "retén",
+        "tranca",
+        "punto de control",
+        "operativo policial"
+    ],
+    "intersección": [
+        "Cruce",
+        "empalme",
+        "esquina"
+    ],
+    "paso peatonal": [
+        "cebra",
+        "paso cebra",
+        "paso de cebra",
+        "cruce peatonal",
+        "paso de peatones",
+        "franja peatonal",
+        "línea peatonal"
+    ],
+    "reductor de velocidad": [
+        "rompe muelle"
+    ],
+    "semáforo": [
+        "luz roja",
+        "señalética"
+    ],
+    "señal de tránsito": [
+        "Señalización vial",
+        "señales viales",
+        "letreros de tráfico"
+    ],
+    "vía pública": [
+        "Calle",
+        "carretera",
+        "camino"
+    ],
+    "en estado de ebriedad": [
+        "embriaguez",
+        "borracho",
+        "alcoholizado",
+        "estado alcohólico",
+        "ebrio",
+        "yema",
+        "torci",
+        "estado etílico",
+        "tomado",
+        "bebido",
+        "duro"
+    ],
+    "vidrios polarizados": [
+        "Polarizados",
+        "vidrios oscuros",
+        "vidrios negros"
+    ],
+    "estacionar": [
+        "parquear",
+        "aparcar",
+        "detener el vehículo",
+        "estacionar el auto",
+        "dejar el carro"
+    ],
+    "estacionamiento": [
+        "parqueo",
+        "aparcamientos",
+        "parqueadero",
+        "zona de estacionamiento",
+        "área de estacionamiento"
+    ],
+    "conducir un vehículo": [
+        "manejar",
+        "conducir",
+        "llevar el auto",
+        "transportar el vehículo",
+        "guiar el carro"
+    ],
+    "cinturón de seguridad": [
+        "cinturón",
+        "sujeción de seguridad"
+    ],
+    "alcoholímetro": [
+        "alcoholemia",
+        "detector de alcohol"
+    ],
+    "alcohol": [
+        "trago",
+        "bebida alcohólica",
+        "licor",
+        "fermentado"
+    ],
+    "alcoholismo": [
+        "borracheras",
+        "ebriedad crónica"
+    ],
+    "alcoholemia": [
+        "prueba de aliento",
+        "examen de aliento"
+    ],
+    "alcoholemia positiva": [
+        "resultado positivo de alcoholemia"
+    ],
+    "alcoholemia negativa": [
+        "resultado negativo de alcoholemia"
+    ],
+    "accidente vehicular": [
+        "choque vehicular",
+        "colisión vehicular"
+    ],
+    "accidente automovilístico": [
+        "choque automovilístico",
+        "colisión automovilística"
+    ],
+    "accidente de tráfico": [
+        "choque de tráfico",
+        "colisión de tráfico"
+    ],
+    "rebasar": [
+        "adelantar",
+        "pasar", "sobrepasar",
+        "sobrepasar un vehículo" 
+    ]
+
+}
