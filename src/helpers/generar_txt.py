@@ -29,10 +29,8 @@ def generar_txt_desde_consultas(output_path="datos_vectoriales.txt"):
     print("Subcategorías procesadas.")
     docs += procesar_productos()
     print("Productos procesados.")
-    print(f"Total de documentos procesados: {len(docs)}")
 
     # Guardar en un archivo txt
     with open(output_path, "w", encoding="utf-8") as file:
         for doc in docs:
             file.write(doc.page_content.strip() + "\n\n")  # Espaciado entre entradas
-    print(f"Archivo generado en: {output_path}")

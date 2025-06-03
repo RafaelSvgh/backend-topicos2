@@ -7,7 +7,7 @@ from langchain_core.messages import AIMessage, HumanMessage
 from src.helpers.generar_txt import generar_txt_desde_consultas
 from src.helpers.sinonimos import cargar_sinonimos, reemplazar_sinonimos
 from src.helpers.embeddings import load_and_process_document, create_vector_store
-from src.helpers.qa_chain import setup_qa_chain
+from src.helpers.qa_chain import obtener_interes_principal_por_usuario, obtener_match_por_usuario_con_llm, setup_qa_chain
 
 from twilio.twiml.messaging_response import MessagingResponse
 from twilio.rest import Client
@@ -16,6 +16,9 @@ from langchain_community.llms import OpenAI
 from langchain_community.utilities import SQLDatabase
 from langchain_experimental.sql import SQLDatabaseChain
 
+from src.data.consultas import agregar_mensaje, construir_estructura_simple, insertar_intereses, obtener_mensajes_por_rango, recibir_mensaje
+from datetime import datetime
+from src.helpers.generar_interes import detectar_intereses
 
 app = Flask(__name__)
 CORS(app)
@@ -35,6 +38,20 @@ vectorstore = create_vector_store(splits)
 qa_chain = setup_qa_chain(vectorstore)
 chat_history = []
 
+fecha_ini = datetime(2024, 1, 1)
+fecha_fin = datetime(2025, 12, 31)
+
+chats = obtener_mensajes_por_rango(fecha_ini, fecha_fin)
+
+intereses = detectar_intereses(chats)
+
+interes_principal = obtener_interes_principal_por_usuario(intereses)
+
+# print(interes_principal)
+filtro_interes = obtener_match_por_usuario_con_llm(interes_principal)
+insertar_intereses(filtro_interes)
+# print(interes_principal)
+# print(resultadoo)
 @app.route('/whatsapp-response', methods=['POST'])
 def qa():
     data = request.get_json()
@@ -43,10 +60,13 @@ def qa():
     if not question:
         return jsonify({"error": "No se proporcionó una pregunta"}), 400
     # prompt_normalizado = reemplazar_sinonimos(question, sinonimos)
+    agregar_mensaje("1", question)
     response = qa_chain.invoke({
         "question": question,
         "chat_history": chat_history
-    })  
+    })
+    recibir_mensaje("1", response)
+    # print(response)
     chat_history.append(HumanMessage(content=question))
     chat_history.append(AIMessage(content=response))
     return jsonify({"response": response})
