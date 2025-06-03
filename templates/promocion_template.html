@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Promoción {{ promocion_nombre }}</title>
+</head>
+<body style="margin:0; padding:0; background-color:#121212;">
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#121212">
+    <tr>
+      <td align="center">
+
+        <!-- Contenedor central -->
+        <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background-color:#1e1d1d; font-family:Arial, sans-serif; color:#ffffff;">
+
+          <!-- LOGO -->
+          <tr>
+            <td align="center" style="padding:40px 20px; background-color:#2b2b2b;">
+              <img src="https://res.cloudinary.com/dxjjhzbnn/image/upload/v1748905947/topicos_3_nwzeyu.png" alt="Tópicos logo" width="200" style="max-width:100%; height:auto;">
+            </td>
+          </tr>
+
+          <!-- TEXTO PRINCIPAL -->
+          <tr>
+            <td align="center" style="padding:20px;">
+              <p style="font-size:16px; color:#f5f5f7;">¡No dejes pasar esta oportunidad y aprovecha esta promoción!</p>
+              <h1 style="margin:0; font-size:22px; font-weight:500;">{{ promocion_nombre }}</h1>
+              <p style="font-size:16px; color:#f5f5f7;">¡Mira los descuentos imperdibles que tenemos para ti!</p>
+            </td>
+          </tr>
+
+          <!-- GALERÍA DE PRODUCTOS -->
+          <tr>
+            <td align="center" style="padding:20px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  {% for producto in productos %}
+                  {% if loop.index0 is divisibleby 2 and not loop.first %}
+                    </tr><tr>
+                  {% endif %}
+                  <td width="50%" style="padding:10px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff; border-radius:8px; color:#000000;">
+                      <tr>
+                        <td align="center" style="padding:10px;">
+                          <img src="{{ producto.imagen_url }}" alt="{{ producto.nombre }}" width="100%" style="border-radius:6px; height:auto;">
+                          <h2 style="font-size:16px; margin:10px 0;">{{ producto.nombre }}</h2>
+                          <p style="margin:0; font-size:14px;">{{ producto.marca }}</p>
+                          <p style="margin:0; font-size:14px;"><s>Bs. {{ '%.2f'|format(producto.precio) }}</s></p>
+                          <p style="margin:0; font-size:16px; color:#ffcf57;"><strong>Bs. {{ '%.2f'|format(producto.precio_promocional) }}</strong></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  {% endfor %}
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- BOTÓN DE WHATSAPP -->
+          <tr>
+            <td align="center" style="padding:20px;">
+              <p style="font-size:14px; color:#bbb; margin-bottom:10px;">¡Contáctanos y haz tu pedido ahora mismo!</p>
+              <a href="https://wa.me/14155238886" target="_blank" style="background-color:#128C7E; color:#ffffff; padding:12px 24px; text-decoration:none; border-radius:6px; display:inline-block; font-weight:bold;">¡Escríbenos!</a>
+            </td>
+          </tr>
+
+          <!-- PIE DE PÁGINA -->
+          <tr>
+            <td align="center" style="padding:30px 20px; background-color:#2b2b2b; font-size:12px; color:#888;">
+              © 2025 TOPICOS. Todos los derechos reservados.<br>Bolivia
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+

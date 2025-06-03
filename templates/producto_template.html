@@ -1,0 +1,93 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tópicos - Producto</title>
+</head>
+<body style="margin:0; padding:0; background-color:#121212; font-family:Arial, sans-serif; color:#ffffff;">
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#121212">
+    <tr>
+      <td align="center">
+
+        <!-- CONTENEDOR -->
+        <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; background-color:#1e1d1d;">
+
+          <!-- LOGO -->
+          <tr>
+            <td align="center" style="padding:40px 20px; background-color:#2b2b2b;">
+              <img src="https://res.cloudinary.com/dxjjhzbnn/image/upload/v1748905947/topicos_3_nwzeyu.png" alt="Tópicos" width="250" style="max-width:100%; height:auto;">
+            </td>
+          </tr>
+
+          <!-- TEXTO PRINCIPAL -->
+          <tr>
+            <td align="center" style="padding:30px 20px;">
+              <h1 style="font-size:23px; font-weight:500; margin:0; font-family:Monaco, sans-serif;">Estilo, comodidad y versatilidad</h1>
+              <p style="font-size:16px; margin:15px 0 0; font-family:Italiana, sans-serif;">Sabemos que algo en este producto llamó tu atención. Aquí te damos más detalles.</p>
+            </td>
+          </tr>
+
+          <!-- INFORMACIÓN DEL PRODUCTO -->
+          <tr>
+            <td align="center" style="padding:30px 20px;">
+              <h2 style="font-size:26px; font-weight:500; text-transform:uppercase; letter-spacing:0.5px; margin:0;">{{ nombre }}</h2>
+              <p style="margin:10px 0 0; font-size:15px; font-weight:600; color:#bbbbbb; text-transform:uppercase;">{{ marca }}</p>
+              <p style="font-size:18px; font-weight:bold; color:#ffcf57; margin:10px 0;">Bs. {{ precio }}</p>
+            </td>
+          </tr>
+
+          <!-- GALERÍA DE IMÁGENES -->
+          {% for imagen in imagenes %}
+          <tr>
+            <td align="center" style="padding:20px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff; border-radius:6px; color:#000000;">
+                <tr>
+                  <td align="center" style="padding:10px;">
+                    <img src="{{ imagen.url }}" alt="Imagen {{ loop.index }}" width="100%" style="border-radius:6px; max-width:100%; height:auto;">
+                    <h3 style="font-size:16px; margin:10px 0 5px;">{{ imagen.titulo }}</h3>
+                    <p style="margin:4px 0 0; font-size:14px;">{{ imagen.descripcion }}</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          {% endfor %}
+
+          <!-- TALLAS -->
+          <tr>
+            <td align="center" style="padding:20px;">
+              <p style="font-size:14px; color:#bbb;">Disponible en las siguientes tallas:</p>
+              <table cellpadding="5" cellspacing="0" border="0">
+                <tr>
+                  {% for talla in tallas %}
+                  <td align="center">
+                    <div style="width:36px; height:36px; border-radius:50%; background-color:#f5f5f7; color:#1a1a1a; font-weight:bold; line-height:36px; font-size:14px;">
+                      {{ talla }}
+                    </div>
+                  </td>
+                  {% endfor %}
+                </tr>
+              </table>
+              <p style="margin-top:15px;">¡No te quedes sin el tuyo!</p>
+              <a href="https://wa.me/1234567890" target="_blank" style="background-color:#128C7E; color:#ffffff; padding:12px 24px; text-decoration:none; border-radius:6px; font-weight:bold; display:inline-block;">¡Pídelo!</a>
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td align="center" style="padding:30px 20px; background-color:#2b2b2b; font-size:12px; color:#888;">
+              © 2025 TOPICOS. Todos los derechos reservados.<br>Bolivia
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

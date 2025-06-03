@@ -1,0 +1,52 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tópicos - Subcategoría</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin:0;padding:0;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;background-color:#121212;color:#ffffff;">
+  
+  <!-- Logo -->
+  <div style="width:100%;max-width:600px;margin:0 auto;background-color:#2b2b2b;text-align:center;padding:40px 20px;">
+    <img src="https://res.cloudinary.com/dxjjhzbnn/image/upload/v1748905947/topicos_3_nwzeyu.png" alt="Tópicos logo" style="max-width:300px;height:auto;">
+  </div>
+
+  <!-- Título -->
+  <div style="width:100%;max-width:600px;margin:0 auto;background-color:#1e1d1d;color:#f5f5f7;padding:30px 20px;text-align:center;">
+    <h1 style="font-size:23px;font-weight:500;margin-bottom:15px;font-family:Monaco,sans-serif;">Explora lo mejor de nuestra subcategoría</h1>
+  </div>
+
+  <!-- Productos -->
+  <div style="width:100%;max-width:600px;margin:0 auto;background-color:#1e1d1d;padding:50px 20px 30px;text-align:center;">
+    <p style="font-size:14px;color:#bbb;">¿Buscas algo específico? Aquí tienes una muestra de nuestra selección:</p>
+    <h2 style="font-size:18px;margin-bottom:30px;font-weight:500;letter-spacing:0.5px;text-transform:uppercase;">{{ subcategoria_nombre }}</h2>
+
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;padding:10px 0;">
+      {% for p in productos %}
+      <div style="width:calc(50% - 10px);border:1px solid #ddd;border-radius:8px;padding:10px;text-align:center;box-shadow:0 2px 5px rgba(0,0,0,0.1);background-color:#ffffff;">
+        <img src="{{ p.imagen_url }}" alt="{{ p.nombre }}" style="max-width:100%;height:auto;border-radius:6px;">
+        <h3 style="font-size:16px;margin:10px 0 5px;color:#333;">{{ p.nombre }}</h3>
+        <p style="font-size:15px;font-weight:600;color:#bbbbbb;letter-spacing:1px;text-transform:uppercase;margin:0;">{{ p.marca }}</p>
+        <p style="font-size:16px;font-weight:bold;color:#ffcf57;margin:8px 0;">Bs. {{ p.precio }}</p>
+      </div>
+      {% endfor %}
+    </div>
+
+    <h2 style="margin-top:30px;font-size:14px;color:#bbb;">¡Contáctanos y haz tu pedido ahora mismo!</h2>
+    <a href="https://wa.me/14155238886" target="_blank" style="display:inline-block;background-color:#128C7E;color:white;padding:12px 24px;text-decoration:none;border-radius:6px;font-weight:bold;font-family:Arial,sans-serif;">
+      ¡Escríbenos!
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <div style="width:100%;max-width:600px;margin:0 auto;background-color:#2b2b2b;text-align:center;font-size:12px;color:#888;padding:40px 20px;">
+    © 2025 TOPICOS. Todos los derechos reservados. <br> Bolivia
+  </div>
+
+</body>
+</html>
+
+
