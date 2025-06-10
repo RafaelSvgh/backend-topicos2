@@ -9,6 +9,7 @@ from .sql_queries import *
 from src.models import (engine, Session, session,
     Usuario, Chat, Mensaje, Interes
 )
+from urllib.parse import quote_plus
 
 # Configuración del logger
 logging.basicConfig(
@@ -278,7 +279,6 @@ def generar_correo_html(codigo_producto: str, chat_id: str = None):
             }
             for i, img in enumerate(imagenes_list[:4])
         ]
-
     contexto = {
         "nombre": datos.nombre,
         "marca": datos.marca,

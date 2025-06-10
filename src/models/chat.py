@@ -1,7 +1,7 @@
 """
 Modelos relacionados con usuarios, chats y mensajes.
 """
-from sqlalchemy import Column, Integer, String, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Text
 from sqlalchemy.orm import relationship
 from .base import Base
 
@@ -32,9 +32,9 @@ class Mensaje(Base):
     __tablename__ = 'mensaje'
     
     id = Column(Integer, primary_key=True)
-    texto = Column(String(2000))  # Aumentado a 2000 caracteres
+    texto = Column(Text)
     fecha = Column(DateTime)
     enviado = Column(String(1))
     chat_id = Column(Integer, ForeignKey('chat.id'))
     
-    chat = relationship("Chat", back_populates="mensajes") 
+    chat = relationship("Chat", back_populates="mensajes")
